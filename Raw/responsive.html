@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website Concepts</title>
+    <style>
+       html, body{
+            height: 100%;
+            width: 100%;
+        }
+        .box{
+            width:200px;
+            height:200px;
+            background-color: crimson;
+
+        }
+        .inner{
+            width:150px;       
+            height:150px;
+            background-color: blueviolet;
+        }
+        .box1{
+            width:100%;
+            height:100px;
+            background-color: crimson;
+
+        }
+        .inner1{
+            width:70%;
+            height:70%;
+            background-color: blueviolet;
+        }
+        .box2{
+            width:400px;
+            height:100%;
+            background-color: crimson;
+
+        }
+        .inner2{
+            width:50vw;
+            height:50vh;
+            background-color: blueviolet;
+        }
+        .box2 h1{
+            font-size: 30px;
+        }
+        .inner2 h1{
+            font-size: 5vh;
+
+        }
+        .box3{
+            /* According to with in Pc */
+            font-size: 5vmax;
+            /* According to Height in pc */
+            font-size: 5vmin;
+        }
+        .parent{
+            background-color: bisque;
+            width:40%;
+            height: 100vh;
+            font-size: 40px;
+        }
+        h1{
+            /* Depend on parent 1em = parent */
+            font-size: 1em;
+        }
+        h2{
+            /* Depend on parent 2em =2 * parent */
+            font-size: 2em;
+        }
+        h2{
+            /* Depend on parent 3em =3 * parent */
+            font-size: 3em;
+        }
+        h1{
+            
+            font-size: 1rem;
+        }
+        h2{
+          
+            font-size: 2rem;
+        }
+        h3{
+         
+            font-size: 3rem;
+        }
+        .my{
+            height:100%;
+        }
+        
+    </style>
+    <body>
+    <!-- 
+    -> Understanding Units
+        1. px  it has fixed sizes depend on the screen
+        2. % depends on the parent,change according to parent
+        3. vw,vh depends upon the height and width of viewport not depend on parent all has same parent viewport or screen size
+        4. vmin,vmax depend on min height and width of screen
+        5. em,rem depend on multiple of parent size(font, height,width..etc) and depend on root element
+        1rem = 16px
+        
+    -->
+     <!-- <div class="box">
+        <div class="inner">
+
+        </div>
+     </div>
+     <br>
+     <div class="box1">
+        <div class="inner1">
+
+        </div> -->
+     <!-- </div>
+     <div class="box2">
+        <h1>This is not responsive design and here </h1>
+        <div class="inner2">
+          <h1>Hey this is Responsive Wesite hey</h1>
+        </div>
+     </div> -->
+     <!-- <div class="box3">
+        Hey this is Responsive Wesite hey
+     </div> -->
+     <div class="parent">
+        <h1>I am H1</h1>
+        <h2>I am H2</h2>
+        <h3>I am H3</h3>
+     </div>
+     <div class="my">
+
+     </div>
+</body>
+</html>

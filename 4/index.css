@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  .navbar {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0.5px 0.5px 5px #555;
+  }
+  .logo {
+    font-size: 1.3vw;
+    margin-right: 200px;
+  }
+  .logo:hover {
+    cursor: pointer;
+  }
+  .logo h1 {
+    color: yellowgreen;
+  }
+  .logo h1 span {
+    color: blue;
+  }
+  .navcenter {
+    display: flex;
+    gap: 40px;
+    font-weight: 800px;
+  }
+  .navright img {
+    margin: 0px 10px;
+    height: 1.5vw;
+  }
+  .navcenter a {
+    text-decoration: none;
+    font-size: 1.4vw;
+    color: #666;
+  }
+  .navcenter a:hover {
+    color: yellowgreen;
+  }
+  .navright img:hover {
+    cursor: pointer;
+  }
+  .firstsection {
+    border: 2px solid yellowgreen;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 180px;
+    margin: 20px;
+    background-color: white;
+    font-weight: 100;
+    font-size: 1vw;
+  }
+  .firstsection h4 {
+    margin-top: 5px;
+  }
+  .firstsection h4:hover {
+    color: yellowgreen;
+  }
+  .section2 {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+    height: 400px;
+  }
+  .elements {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .items {
+    padding: 5px;
+  }
+  .items img {
+    height: 200px;
+    transition: all ease 0.5s;
+    overflow: none;
+  }
+  .items img:hover {
+    height: 220px;
+  }
+  .section2 {
+    width: 98%;
+    height: auto;
+    border: 1px solid greenyellow;
+    margin: 5px;
+    margin-bottom: 30px;
+    padding: 5px;
+  }
+  .section2 h1 {
+    font-size: 25px;
+    margin: 10px 10px;
+  }
+  .section2-items {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    flex-wrap: wrap;
+  }
+  .item {
+    /* border: 1px solid yellowgreen; */
+    width: 150px;
+    height: 180px;
+    box-shadow: 1px 1px 3px yellowgreen;
+    padding: 12px;
+    margin: 0 5px;
+  }
+  .item img {
+    width: 85%;
+    height: 100px;
+  }
+  .item img:hover {
+    cursor: pointer;
+    scale: 1.1;
+  }
+  .item p,
+  h3 {
+    margin: 0px 12px;
+    text-align: center;
+    font-size: 1vw;
+    margin-top: 5px;
+  }
+  .item p,
+  h3:hover {
+    cursor: pointer;
+  }
+  .top:hover {
+    cursor: pointer;
+  }
+  .sec3{
+    width:100%;
+    display: flex;
+  }
+        .section3{
+            margin-top:30px;
+            margin-left:10px;
+            width:40%;
+            
+            border:1px solid yellowgreen;
+            box-shadow: 1px 1px 10px yellowgreen;
+            display: flex;
+            flex-direction: column;
+        }
+        .section3-1{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width:100%;
+            padding: 15px;
+            margin-bottom: 5px;
+        }
+        .section3-1 img{
+            width:5%;
+            height:5%;
+        }
+        .section3-2{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width:100%;
+            flex-wrap: wrap;
+            padding: 15px;
+            font-size: large;
+            
+
+        }
+        .section3-2 img{
+            width: 80%;
+            border-radius: 20px;
+        }
+        .box{
+            padding: 5px;
+        }
+        .box p,h4{
+            margin:5px 5px;
+        }
+        .box h4{
+            color:yellowgreen;
+            font-weight: 1000px;
+        }
+        .box p,h4:hover{
+            cursor: pointer;
+        }
+        .section3-2 img:hover{
+            scale: 1.05;
+            cursor: pointer;
+        }
+        .sec3image img{
+            width:100%;
+            display: flex;
+            margin-top: 30px;
+            margin-right: 10px;
+            margin-left: 5px;
+        }
+        .sec3image{
+        width:60%;
+
+    }
+    .sec3image button{
+        position: relative;
+        bottom:70px;
+        left:10px;
+        width:320px;
+        height: 65px;
+        border-radius: 10px;
+        background-color: #c4bbbb;
+        border:none;
+        font-size: 20px;
+        color:white;
+       
+    }
+    .sec3image button:hover{
+        cursor: pointer;
+        color: rgb(76, 101, 27);
+        font-weight: 1000;
+        box-shadow: 1px 1px 3px yellowgreen;
+    }
