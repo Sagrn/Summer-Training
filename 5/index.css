@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #eff7fa;
+  }
+  .navbar {
+    background-color: white;
+  }
+  .part1 {
+    text-align: end;
+    font-size: 12px;
+    color: #666;
+    margin-right: 5px;
+  }
+  .part1 a {
+    text-decoration: none;
+    color: #666;
+  }
+  .part1 img {
+    width: 2.5vh;
+    position: relative;
+    top: 5px;
+  }
+  .part1 img:hover {
+    scale: 1.1;
+  }
+  .part2 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .part2 > img {
+    width:22vh;
+    margin-left: 10px;
+  }
+
+  .part2-a input {
+    width: 40vw;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgba(104, 233, 233, 0.1);
+    border: none;
+    border: 1px solid rgb(104, 233, 233);
+    padding: 2px;
+  }
+  .part2-a button {
+    width: 8vw;
+    height: 35px;
+    background-image: linear-gradient(0deg, #ff934b 0%, #ff5e62 100%);
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 2px 1px rgb(155, 141, 114);
+    color: white;
+    font-size: 15px;
+  }
+  .part2-a button:hover {
+    cursor: pointer;
+  }
+  .part2-b{
+    display: flex;
+    width:25%;
+    justify-content: space-around;
+    align-items: center;
+    margin-right:5px;
+  }
+  .part2-b img{
+    width:3vh;
+  }
+  .part2-b img:hover{
+    cursor: pointer;
+    scale: 1.1;
+  }
+  .part2-b span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .part2-b span a{
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  .part3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    gap: 12px;
+    height:45px;
+    background-color: rgba(36,163,181,255);
+    margin-top: 3px;
+  }
+  .part3 img{
+    width: 4.5vw;
+  }
+  .part3 span{
+    font-size: 0.8rem;
+    color: white;
+    margin-left: 10px;
+    padding: 2px;
+  }
+  .part3 span:hover{
+    cursor: pointer;
+    background-color: white;
+    color:rgba(36,163,181,255);
+  }
+  .part4 nav{
+    text-align: center;
+    height: 30px;
+    margin-top:10px;
+  }
+  .part4 nav span{
+    font-size: 0.9rem;
+     margin:auto 8px;
+     color: #666;
+  }
+  .part4 nav span:hover{
+    cursor: pointer;
+    color: rgba(36,163,181,255);
+  }
+  .scetion2{
+    width:100%;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+    
+  }
+  .sec2-a{
+    width:70%;
+    height: auto;
+    box-shadow: 1px 1px 2px black;
+  }
+  .slider{
+    width:100%;
+    height: 350px;
+    animation: slider 25s linear  infinite ;
+    background-size: cover;
+  }
+
+  .sliderbtn{
+    width:100%;
+    height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+  }
+  .btn1,.btn2,.btn3,.btn4,.btn5{
+    
+     font-size: 1rem;
+     color: #666;
+
+  }
+  .btn1:hover{
+    color:rgba(36,163,181,255);
+    cursor: pointer;
+   
+  }
+  .btn2:hover{
+    color:rgba(36,163,181,255);
+    cursor: pointer;
+   
+  }
+  .btn3:hover{
+    color:rgba(36,163,181,255);
+    cursor: pointer;
+   
+  }
+  .btn4:hover{
+    color:rgba(36,163,181,255);
+    cursor: pointer;
+   
+  }
+  .btn5:hover{
+    color:rgba(36,163,181,255);
+    cursor: pointer;
+   
+  }
+  @keyframes slider{
+        0%{
+             background-image: url(images/savanmela.png);
+        }
+        25%{
+            background-image: url(images/mobiles.png);
+
+        }
+        50%{
+            background-image: url(images/express.png);
+
+        }
+        75%{
+            background-image: url(images/jaw.png);
+        }
+        100%{
+            background-image: url(images/intel.png);
+        }
+        
+    }
+
+    .sec2-b{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+         width:20%;
+         margin-right: 20px;
+  }
+  .itemss{
+    background-color: white;
+    width: 100%;
+    height:160px;
+    box-shadow: 1px 1px 3px ;
+    
+   
+  }
+  .itemss img{
+    margin-left: 70px;
+    height: 11vw;
+  }
+  .itemss img:hover{
+    filter: contrast(130%);
+    cursor: pointer;
+  }
