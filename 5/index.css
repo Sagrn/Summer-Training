@@ -410,10 +410,11 @@ h1 {
   margin:auto;
   margin-top: 20px;
   margin-bottom: 20px;
-  line-height: 30px;
+  line-height: 25px;
   font-size: 0.9rem;
   color: #666;
   word-spacing: 2px;
+  padding: 10px;
 }
 .exta p span{
   font-size: 1rem;
