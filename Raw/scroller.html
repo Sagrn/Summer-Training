@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            background-color: lightblue;
+            overflow: hidden;
+        }
+        ul{
+           
+            width:30%;
+            height:8vh;
+            margin: auto;
+        }
+        li{
+              float: left;
+              list-style: none;
+              margin:10px 10px;
+              
+        }
+        .home:hover{
+            color:white;
+            background-color: rgba(134, 164, 193, 0.8);
+        }
+        .submenu{
+            display: none;
+        }
+        .my:hover .submenu{
+            display:block;
+            position: absolute;
+            background-color: aqua;
+            margin-top: 18px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="home my">Home
+                <div class="submenu">
+                    <ul>
+                     <li>Sagar</li>
+                    <li>Vishal</li>
+                    <li>Rahhul</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="About my">About
+                <div class="submenu">
+                    <ul>
+                     <li>Sagar</li>
+                    <li>Vishal</li>
+                    <li>Rahhul</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="Work my">Work
+                <div class="submenu">
+                    <ul>
+                     <li>Sagar</li>
+                    <li>Vishal</li>
+                    <li>Rahhul</li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>

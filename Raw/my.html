@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .navbar{
+            width:100%;
+            background-color: rgba(10,101,110,0.5);
+            color: white;
+            font-size: 1.2rem;
+            display: flex;
+            height: 8vh;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .items{
+            background-color: rgba(10,101,110,0.5);
+            height: 100%;
+            width:20%;
+            padding: 10px;
+            
+         
+        }
+        .items:hover{
+            background-color: white;
+            color:rgba(10,101,110,0.5);
+            
+        }
+        .items:hover .submenu{
+            display:block;
+        }
+        .submenu{
+            background-color: rgba(10,101,110,0.5);
+            position: absolute;
+            margin-top:15.5px;
+           color: #666;
+            width:18.5vw;
+            display:none;
+        }
+        .submenu:hover{
+            background-color: aliceblue;
+        }
+        .submenu li:hover{
+            background-color: rgb(13, 13, 14);
+        }
+        .submenu li:hover .sub2{
+            display: block;
+        }
+        .sub2{
+            position: absolute;
+            left:160px;
+            top: 0px;
+            background-color: rgba(10,101,110,0.5);
+            width:18.5vw;
+            list-style: none;
+            display: none;
+        }
+        .sub2 ul li{
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="items scl">School
+           <div class="submenu scl">
+            <ul>
+                <li>Goverment School
+                    <div class="sub2">
+                        <ul>
+                            <li>Delhi</li>
+                            <li>haryana</li>
+                            <li>Punjab</li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li>Private School</li>
+                <li>School Near</li>
+                <li>School Away</li>
+            </ul>
+           </div>
+        </div>
+        <div class="items clg">College</div>
+        <div class="items uni">Univercities</div>
+        <div class="items mob">Mobiles</div>
+        <div class="items car">Cars</div>
+    </div>
+   
+</body>
+</html>
